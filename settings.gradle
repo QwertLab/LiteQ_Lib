@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        //-- For LiteQ SDK
+        maven {
+            url 'https://sdk.qwertlab.com/repository/internal'
+        }
+        //-- END LiteQ
+    }
+}
+rootProject.name = "Sample_LiteQPlatform"
+include ':app'
