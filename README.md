@@ -35,7 +35,7 @@
 * build.gradle(Module:) 설정
 
 
-> LiteQ SDK를 dependencies에 implementation 합니다.
+> LiteQ SDK를 dependencies에 implementation 합니다.<br>
 > Gradle Plugin 4.1 이상을 사용하실 경우 네이티브 디버그 기호파일이 생성될 수 있도록 debugSymbolLevel을 추가합니다.
 > (<a href='https://developer.android.com/reference/tools/gradle-api/7.3/com/android/build/api/dsl/Ndk#debugSymbolLevel()' taget='_blank'>디버그 심볼 관련내용</a>)
 <br>
