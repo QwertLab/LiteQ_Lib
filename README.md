@@ -1,6 +1,8 @@
 # LiteQ
 # Sample Project
 
+> LiteQ SDK 최신버전은 3.1.0 버전입니다.
+
 자세한 내용은 <a href="https://api.qwertlab.com/liteq/index.php" taregt="_blank">API Document 사이트</a>에서 확인해보실 수 있습니다.
 
 <br>
