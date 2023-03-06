@@ -90,7 +90,7 @@
 ```java
    ... 
 
-    #- For ADQ SDK
+    #- For LiteQ SDK
     
     -keep class com.qwertlab.liteq.**{*;}
     -dontwarn com.qwertlab.liteq.**
