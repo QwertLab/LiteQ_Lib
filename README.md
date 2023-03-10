@@ -1,7 +1,7 @@
 # LiteQ
 # Sample Project
 
-> LiteQ SDK 최신버전은 3.1.0 버전입니다.
+> LiteQ SDK 최신버전은 3.1.1 버전입니다.
 
 자세한 내용은 <a href="https://api.qwertlab.com/liteq/index.php" taregt="_blank">API Document 사이트</a>에서 확인해보실 수 있습니다.
 
@@ -83,7 +83,8 @@
 * 프로가드 설정
 
 
-> proguard-rules.pro 파일에 LiteQ SDK 정보를 예외처리합니다.
+> proguard-rules.pro 파일에 LiteQ SDK 정보를 예외처리합니다.<br>
+> ADQ SDK 내부에서 사용중인 androidx 또한 반드시 예외처리해야합니다.
 
 <br>
 
@@ -93,7 +94,10 @@
     #- For LiteQ SDK
     
     -keep class com.qwertlab.liteq.**{*;}
+    -keep class androidx.**{*;}
+
     -dontwarn com.qwertlab.liteq.**
+    -dontwarn androidx.**
     
     ... 
           
