@@ -22,4 +22,7 @@
 
 # -- For LiteQ SDK
 -keep class com.qwertlab.liteq.**{*;}
+-keep class androidx.**{*;}
+
 -dontwarn com.qwertlab.liteq.**
+-dontwarn androidx.**
