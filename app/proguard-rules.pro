@@ -26,3 +26,4 @@
 
 -dontwarn com.qwertlab.liteq.**
 -dontwarn androidx.**
+
