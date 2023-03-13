@@ -120,7 +120,7 @@
         ...
         
         //-- LiteQ SDK Call ------------------------------------------------------------------------
-        LiteQManager.initLiteQ(MainActivity.this, "AgentKey");
+        LiteQManager.initLiteQ(MainActivity.this, "Agent사이트에서 발급받은 AgentKey");
         //------------------------------------------------------------------------------------------
         
         ....
