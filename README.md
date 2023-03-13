@@ -70,7 +70,7 @@
         ...
         
         //-- FOR LiteQ -------------------------------------------------------------------------------
-        implementation 'com.qwertlab.liteq:LiteQ:3.1.0'
+        implementation 'com.qwertlab.liteq:LiteQ:3.1.1'
         
         ...
     }
