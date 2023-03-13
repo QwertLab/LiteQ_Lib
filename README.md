@@ -143,7 +143,7 @@
 보다 더 자세한 내용을 확인하고 싶으시다면 아래의 링크 정보를 통해서 확인해보실 수 있습니다.
 
 * <a href="https://api.qwertlab.com/liteq/index.php">API Document</a>
-* <a href="https://agent.qwertlab.com/">회원가입</a>
+* <a href="https://agent.qwertlab.com/">회원가입(Agent사이트)</a>
 * <a href="https://www.qwertlab.com//">홈페이지</a>
 
 
