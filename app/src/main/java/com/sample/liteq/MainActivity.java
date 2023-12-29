@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.qwertlab.liteq.main.LiteQManager;
+import com.qwertlab.liteq.utils.XAdsFunc;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //-- LiteQ SDK Call ------------------------------------------------------------------------
         LiteQManager.initLiteQ(MainActivity.this, "AgentKey");
         //------------------------------------------------------------------------------------------
+
 
 
     }
