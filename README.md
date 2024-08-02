@@ -1,7 +1,7 @@
 # LiteQ
 # Sample Project
 
-> LiteQ SDK 최신버전은 3.6.1 버전입니다.
+> LiteQ SDK 최신버전은 3.6.2 버전입니다.
 
 자세한 내용은 <a href="https://api.qwertlab.com/liteq/index.php" taregt="_blank">API Document 사이트</a>에서 확인해보실 수 있습니다.
 
@@ -38,7 +38,7 @@
 > LiteQ SDK를 dependencies에 implementation 합니다.<br>
 > Gradle Plugin 4.1 이상을 사용하실 경우 네이티브 디버그 기호파일이 생성될 수 있도록 debugSymbolLevel을 추가합니다.<br>
 > (<a href='https://developer.android.com/reference/tools/gradle-api/7.3/com/android/build/api/dsl/Ndk#debugSymbolLevel()' taget='_blank'>디버그 심볼 관련내용</a>)<br>
-> LiteQ SDK 최신버전은 3.6.1 버전입니다.<br>
+> LiteQ SDK 최신버전은 3.6.2 버전입니다.<br>
 > lastest.release 버전을 참조할 경우 항상 최신 LiteQ SDK를 참조하실 수 있습니다.<br>
 
 
@@ -71,7 +71,7 @@
         ...
         
         //-- FOR LiteQ -------------------------------------------------------------------------------
-        implementation 'com.qwertlab.liteq:LiteQ:3.6.1'
+        implementation 'com.qwertlab.liteq:LiteQ:3.6.2'
 
         //-- FOR LiteQ latest release version --------------------------------------------------------
         implementation 'com.qwertlab.liteq:LiteQ:latest.release'
